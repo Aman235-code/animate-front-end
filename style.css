@@ -13,23 +13,23 @@ body {
 
 body {
   background-color: #111;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 #box {
-  height: 300px;
+  /* height: 300px;
   width: 300px;
-  background-color: red;
+  background-color: yellow;
   border-radius: 10px;
-  position: absolute;
+  position: absolute; */
 
-  animation-name: move;
+  /* animation-name: move;
   animation-duration: 3s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
 
 @keyframes move {
@@ -71,7 +71,7 @@ h1 {
   color: white;
 }
 
-h1::after {
+/* h1::after {
   content: " like kardo guys";
   background-color: blue;
   font-size: 20px;
@@ -85,4 +85,79 @@ h1::before {
   font-size: 20px;
   padding: 5px 10px;
   border-radius: 5px;
+} */
+
+#circle {
+  height: 300px;
+  width: 300px;
+  background-color: royalblue;
+  border-radius: 50%;
+}
+
+#box1 {
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#box2 {
+  height: 300px;
+  width: 300px;
+  background-color: royalblue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#box3 {
+  height: 300px;
+  width: 300px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(110, 211, 244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(32, 255, 77);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+#page4 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(68, 107, 76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  border-radius: 10px;
 }
